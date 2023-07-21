@@ -1,0 +1,101 @@
+.contenido-encabezado{
+    background-color: darkslategray;
+}
+.contenido-encabezado h1{
+    color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 28px;
+    padding: 0.5em 0;
+}
+.contenido-subencabezado{
+    width: 940px;
+    margin: 0 auto;
+    font-size: 45px;
+    background-color: white;
+    border-bottom: 2px solid lightgrey;
+}
+.contenido-subencabezado p{
+    padding: 0.5em 0;
+}
+.filtros, table, .contenedor-buscar{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+#filtrar-por-nombre{
+    width: 190px;
+    padding: 10px 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+thead{
+    background-color: lightgrey;
+    font-weight: bold;
+}
+th,td{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 8px 15px;
+}
+.seccion-formulario{
+    width: 940px;
+    margin: 0 auto;
+    background-color: white;
+}
+.seccion-formulario p{
+    padding: 1em 0 0 0;
+    font-size: 35px;
+    border-bottom: 2px solid lightgrey;
+    text-align: center;
+}
+.campo{
+    padding: 2em 2em 2em 0;
+    display: inline-block;
+    text-align: start;
+}
+.error{
+    color: red;
+    display: block;
+    margin: 2em 0 0.5em 0;
+}
+.campo label{
+    display: block;
+    color: dimgray;
+}
+.campo input{
+    padding: 5px 10px;
+    height: 20px;
+}
+#btn-agregar, #btn-buscar{
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    transition: 400ms all;
+}
+#btn-agregar{
+    background-color: limegreen;
+    margin-bottom: 1em;
+}
+#btn-buscar{
+    background-color: dodgerblue;
+    display: block;
+    margin-top: 1em;
+}
+#btn-agregar:hover, #btn-buscar:hover{
+    font-size: 18px;
+}
+.paciente-incorrecto{
+    background-color: lightcoral;
+}
+.fadeOut{
+    opacity: 0;
+    transition: 500ms;
+}
+.invisible{
+    display: none;
+}
